@@ -5,7 +5,7 @@ print("""  Buen dia, ¿Deseas ordenar?
     Presiona 'Y' para si 
     Presiona 'N' para no """)
 print("------------------------------")
-primera = input(str("--> "))
+primera = input("--> ")
 print("------------------------------")
 if primera == "Y":
     print("""Aqui esta el menu: 
@@ -24,7 +24,7 @@ if primera == "Y":
     print("Presiona 'Y' para si")
     print("Presiona 'N' para no")
     print("------------------------------")
-    respuesta = input(str("--> "))
+    respuesta = input("--> ")
     if respuesta == "Y":
         while(True):
             print("------------------------------")
@@ -38,7 +38,7 @@ if primera == "Y":
             print("Presiona 'Y' para si")
             print("Presiona 'N' para no")
             print("------------------------------")
-            respuestal = input(str("--> "))
+            respuestal = input("--> ")
             if respuestal == "N":
                 print("Su pedido es:", pedido)
                 print("------------------------------")
